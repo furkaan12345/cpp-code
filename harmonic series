@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int limit;
+    cout << "Enter the limit for the harmonic series: ";
+    cin >> limit;
+
+    double harmonicSum = 0.0;
+    for (int i = 1; i <= limit; ++i) {
+        harmonicSum += 1.0 / i;
+    }
+    cout << "Harmonic series up to " << limit << " terms: " << harmonicSum << endl;
+
+    return 0;
+}
