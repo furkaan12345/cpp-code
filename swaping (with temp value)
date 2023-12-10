@@ -14,7 +14,7 @@ int main() {
     a = b;
     b = temp;
 
-    std::cout << "After swapping, a = " << a << " and b = " << b << std::endl;
+    std::cout << "After swapping, a = " << a << " and b = " << b << endl;
 
     return 0;
 }
