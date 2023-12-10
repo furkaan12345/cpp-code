@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std:
+
+
+long long calculateFactorial(int n) {
+    if (n == 0 || n == 1) {
+        return 1;
+    } else {
+        return n * calculateFactorial(n - 1);
+    }
+}
+
+int main() {
+    int number;
+
+   
+   cout << "Enter a number: ";
+    cin >> number;
+
+
+    if (number < 0) {
+        std::cout << "Factorial is not defined for negative numbers." << std::endl;
+    } else {
+        long long factorial = calculateFactorial(number);
+        std::cout << "Factorial of " << number << " is: " << factorial << std::endl;
+    }
+
+    return 0;
+}
