@@ -19,10 +19,10 @@ int main() {
 
 
     if (number < 0) {
-        std::cout << "Factorial is not defined for negative numbers." << std::endl;
+        cout << "Factorial is not defined for negative numbers." << endl;
     } else {
         long long factorial = calculateFactorial(number);
-        std::cout << "Factorial of " << number << " is: " << factorial << std::endl;
+        cout << "Factorial of " << number << " is: " << factorial << endl;
     }
 
     return 0;
