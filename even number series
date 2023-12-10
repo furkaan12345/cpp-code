@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Enter the number of even numbers to print: ";
+    cin >> n;
+
+    cout << "Even number series up to " << n << ": ";
+    for (int i = 2; i <= n * 2; i += 2) {
+        cout << i << " ";
+    }
+
+    cout << endl;
+
+    return 0;
+}
