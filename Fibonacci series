@@ -23,7 +23,7 @@ int main() {
         secondTerm = nextTerm;
     }
 
-    cout << std::endl;
+    cout << endl;
 
     return 0;
 }
